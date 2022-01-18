@@ -1,0 +1,20 @@
+.section_l{
+
+    display:flex;
+}
+
+.video_call{
+
+    width:50vw;
+}
+
+.coding{
+
+    width:50vw;
+}
+
+footer{
+
+    background-color: black;
+    height: 20vh;
+}

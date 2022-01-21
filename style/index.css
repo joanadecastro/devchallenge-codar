@@ -1,20 +1,21 @@
-.section_l{
-
-    display:flex;
+.section_l {
+  display: flex;
+  justify-content: space-around;
 }
 
-.video_call{
-
-    width:50vw;
+.section_m {
+  display: block;
 }
 
-.coding{
-
-    width:50vw;
+.video_call {
+  width: 50vw;
 }
 
-footer{
+.coding {
+  width: 50vw;
+}
 
-    background-color: black;
-    height: 20vh;
+footer {
+  background-color: black;
+  height: 20vh;
 }

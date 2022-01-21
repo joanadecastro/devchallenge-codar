@@ -1,18 +1,48 @@
-.section_l {
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+
+h1 {
+  color: #d6000d;
+  font-size: 75px;
+}
+
+h2,
+.section_m2,
+nav {
+  font-size: 30px;
+}
+
+.section_l,
+.section_menu {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-.section_m {
-  display: block;
+.menu_principal {
+  margin-right: 0px;
 }
 
-.video_call {
-  width: 50vw;
-}
-
+.video_call,
 .coding {
-  width: 50vw;
+  width: 600px;
+  height: auto;
+}
+
+.video_call,
+.section_m2 {
+  margin-right: 5%;
+}
+
+.section_m1,
+.coding {
+  margin-left: 5%;
 }
 
 footer {

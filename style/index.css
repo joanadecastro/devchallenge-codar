@@ -15,8 +15,13 @@ h1 {
 
 h2,
 .section_m2,
-nav {
+.nav {
   font-size: 30px;
+  color: black;
+}
+
+.nav {
+  text-decoration: none;
 }
 
 .section_l,
@@ -48,4 +53,9 @@ nav {
 footer {
   background-color: black;
   height: 20vh;
+}
+
+#section_2 {
+  margin-bottom: 200px;
+  margin-top: 80px;
 }
